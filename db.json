@@ -1,0 +1,70 @@
+{
+    "carros": [
+      {
+        "Fotos": ["/public/Corolla_1.png", "/public/Corolla_2.png", "/public/Corolla_3.png"],
+        "Preço": 45000,
+        "Marca": "Toyota",
+        "Modelo": "Corolla",
+        "Ano": 2018,
+        "Cor": "Prata",
+        "Placa": "ABC1234",
+        "Cidade": "São Paulo",
+        "Quilometragem": 35000,
+        "Data de Cadastro": "2024-03-18",
+        "Visualizacoes": 5
+      },
+      {
+        "Fotos": ["Honda_1.jpg", "foto5.jpg", "foto6.jpg"],
+        "Preço": 38000,
+        "Marca": "Honda",
+        "Modelo": "Civic",
+        "Ano": 2017,
+        "Cor": "Branco",
+        "Placa": "DEF5678",
+        "Cidade": "Rio de Janeiro",
+        "Quilometragem": 42000,
+        "Data de Cadastro": "2024-03-17",
+        "Visualizacoes": 10
+      },
+      {
+        "Fotos": ["/public/Golf_1.png", "/public/Golf_2.png", "/public/Golf_3.png"],
+        "Preço": 60000,
+        "Marca": "Volkswagen",
+        "Modelo": "Golf",
+        "Ano": 2020,
+        "Cor": "Preto",
+        "Placa": "GHI9012",
+        "Cidade": "Belo Horizonte",
+        "Quilometragem": 15000,
+        "Data de Cadastro": "2024-03-16",
+        "Visualizacoes": 7
+      },
+      {
+        "Fotos": ["/public/Fordka_1.png", "/public/Fordka_2.png", "/public/Fordka_3.jpg"],
+        "Preço": 30000,
+        "Marca": "Ford",
+        "Modelo": "Ka",
+        "Ano": 2016,
+        "Cor": "Azul",
+        "Placa": "JKL3456",
+        "Cidade": "Curitiba",
+        "Quilometragem": 55000,
+        "Data de Cadastro": "2024-03-15",
+        "Visualizacoes": 9
+      },
+      {
+        "Fotos": ["/public/Onix_1.jpg", "/public/Onix_2.jpg", "/public/Onix_3.jpg"],
+        "Preço": 55000,
+        "Marca": "Chevrolet",
+        "Modelo": "Onix",
+        "Ano": 2019,
+        "Cor": "Vermelho",
+        "Placa": "MNO7890",
+        "Cidade": "Porto Alegre",
+        "Quilometragem": 28000,
+        "Data de Cadastro": "2024-03-14",
+        "Visualizacoes": 20
+      }
+    ]
+  }
+  
