@@ -12,8 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import DirectionsCarIcon from '@mui/icons-material/DirectionsCar';
+import { Link } from "react-router-dom";
 
-const pages = ['Ofertas', 'Administração',];
+const pages = ['Ofertas', 'Administracao',];
 const settings = ['Perfil', 'Conta', 'Dashboard', 'Sair'];
 
 function ResponsiveAppBar() {
@@ -87,11 +88,11 @@ function ResponsiveAppBar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
+              {pages.map((page, index) => (
+  <MenuItem key={index} component={Link} to={`/${page}`} onClick={handleCloseNavMenu}>
+    <Typography textAlign="center">{page}</Typography>
+  </MenuItem>
+))}
             </Menu>
           </Box>
           <DirectionsCarIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -99,7 +100,7 @@ function ResponsiveAppBar() {
             variant="h5"
             noWrap
             component="a"
-            href="#app-bar-with-responsive-menu"
+            href="/Ofertas"
             sx={{
               mr: 2,
               display: { xs: 'flex', md: 'none' },

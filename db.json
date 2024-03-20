@@ -1,7 +1,7 @@
 {
     "carros": [
       {
-        "Fotos": ["/public/Corolla_1.png", "/public/Corolla_2.png", "/public/Corolla_3.png"],
+        "Fotos": ["Corolla_1.png", "Corolla_2.png", "/Corolla_3.png"],
         "Preço": 45000,
         "Marca": "Toyota",
         "Modelo": "Corolla",
@@ -14,12 +14,12 @@
         "Visualizacoes": 5
       },
       {
-        "Fotos": ["Honda_1.jpg", "foto5.jpg", "foto6.jpg"],
+        "Fotos": ["Honda_1.jpg", "Honda_2.jpg", "Honda_3.jpg"],
         "Preço": 38000,
         "Marca": "Honda",
         "Modelo": "Civic",
         "Ano": 2017,
-        "Cor": "Branco",
+        "Cor": "Preto",
         "Placa": "DEF5678",
         "Cidade": "Rio de Janeiro",
         "Quilometragem": 42000,
@@ -27,12 +27,12 @@
         "Visualizacoes": 10
       },
       {
-        "Fotos": ["/public/Golf_1.png", "/public/Golf_2.png", "/public/Golf_3.png"],
+        "Fotos": ["/Golf_1.png", "/Golf_2.png", "/Golf_3.png"],
         "Preço": 60000,
         "Marca": "Volkswagen",
         "Modelo": "Golf",
         "Ano": 2020,
-        "Cor": "Preto",
+        "Cor": "Branco",
         "Placa": "GHI9012",
         "Cidade": "Belo Horizonte",
         "Quilometragem": 15000,
@@ -40,12 +40,12 @@
         "Visualizacoes": 7
       },
       {
-        "Fotos": ["/public/Fordka_1.png", "/public/Fordka_2.png", "/public/Fordka_3.jpg"],
+        "Fotos": ["/Fordka_1.png", "/Fordka_2.png", "/Fordka_3.jpg"],
         "Preço": 30000,
         "Marca": "Ford",
         "Modelo": "Ka",
         "Ano": 2016,
-        "Cor": "Azul",
+        "Cor": "Prata",
         "Placa": "JKL3456",
         "Cidade": "Curitiba",
         "Quilometragem": 55000,
@@ -53,12 +53,12 @@
         "Visualizacoes": 9
       },
       {
-        "Fotos": ["/public/Onix_1.jpg", "/public/Onix_2.jpg", "/public/Onix_3.jpg"],
+        "Fotos": ["/Onix_1.jpg", "/Onix_2.jpg", "/Onix_3.jpg"],
         "Preço": 55000,
         "Marca": "Chevrolet",
         "Modelo": "Onix",
         "Ano": 2019,
-        "Cor": "Vermelho",
+        "Cor": "Branco",
         "Placa": "MNO7890",
         "Cidade": "Porto Alegre",
         "Quilometragem": 28000,
